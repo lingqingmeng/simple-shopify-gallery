@@ -1,0 +1,34 @@
+{
+  "name": "simple-shopify-gallery",
+  "version": "1.0.0",
+  "description": "GImage gallery in four lines. An eloquent solution for making your blog, e-commerce store, portfolio site look great without installing useless widgets. Uses only jQuery.",
+  "main": "gallery.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lingqingmeng/simple-shopify-gallery.git"
+  },
+  "keywords": [
+    "Image",
+    "gallery",
+    "in",
+    "4",
+    "lines",
+    "of",
+    "code.",
+    "Shopify",
+    "and",
+    "Wordpress",
+    "custom",
+    "image",
+    "gallery."
+  ],
+  "author": "lingqingmeng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lingqingmeng/simple-shopify-gallery/issues"
+  },
+  "homepage": "https://github.com/lingqingmeng/simple-shopify-gallery#readme"
+}
