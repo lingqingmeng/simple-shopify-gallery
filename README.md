@@ -21,5 +21,6 @@ OR
 
 `$ http-server .`  
 
+Go to localhost:8080/index.html in your favorite browser  
 
 ## This is the simplest it can get. 
