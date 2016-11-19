@@ -1,16 +1,7 @@
-$(document).ready(function() {
+$(document).ready(function (){
+  $('#thumbs').delegate('img','click', function(){
+    $('#target').attr('src',$(this).attr('src').replace('thumb','large'));
+    $('#description').html($(this).attr('alt'));
+  });  
+})
 
-	var first_url;
-	first_url = $( "ul#thumbs li:first-child a" ).attr( "href" );
- 	console.log( first_url );
-
-	$( "img#target" ).attr( 'src', first_url );
-
-	$( "ul#thumbs" ).children().click(function(e) {
-		e.preventDefault();
-		url = $( this ).find('a').attr( 'href');
-		console.log(url);
-		$( "img#target" ).attr( 'src', url );
-	});
-
-});
